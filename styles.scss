@@ -39,7 +39,7 @@ nav{
     width: 1200px;
     display: flex;
 }
-#picture{
+.picture{
     width: 100px;
     max-width: 100%;
     height: auto;
@@ -61,3 +61,39 @@ nav{
 i.fa{
     font-size: 5000px;
 }
+.project-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.project-left{
+    // grid-template-columns: repeat(2, 1fr);
+    border: 5px solid blue;
+    display: flex;
+    justify-content: center;
+
+    &-captions{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        margin: 10px 50px;
+    }
+}
+
+.project-right{
+    display: flex;
+    // grid-template-columns: repeat(2, 1fr);
+    border: 5px solid pink;
+    justify-content: center;
+}
+
+
+.project-pic{
+        max-width: 25%;
+        height:auto;
+        flex: 1 1 auto;
+        margin: 20px 200px;
+    }
+
+
+
+
