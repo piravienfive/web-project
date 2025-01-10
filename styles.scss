@@ -1,0 +1,63 @@
+div.name{
+    display:flex;
+    border: 5px solid purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    border: 10px solid green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topSection{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+}
+.intro{
+    border: 5px solid pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bigger{
+    font-size: 170%;
+    font-weight: 1200;
+}
+.bigger2{
+    font-size: 170%;
+    font-weight: 1000;
+}
+.intro--name{
+    font-size: 35px;
+}
+.occupation{
+    font-size: 70px;
+}
+.pic{
+    border: 5px solid yellow;
+    width: 1200px;
+    display: flex;
+}
+#picture{
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    object-fit: cover;
+    flex: 1 1 auto;
+}
+.tech{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    &-head{
+        font-size: 200%;
+    }
+    &-intro{
+        font-size: larger;
+    }
+}
+i.fa{
+    font-size: 5000px;
+}
