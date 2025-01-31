@@ -167,8 +167,13 @@ i.fa-{
     }
 
 .foot{
-    border: 3px solid fuchsia;
+    border: 5px solid #383E42;
+    background-color: #383E42;
     display: flex;
+    // margin: 10px 100px;
+    width: 100%;
+    border-radius: px;
+    justify-content: space-between;
 }
 
 .mail-box{
@@ -180,9 +185,8 @@ i.fa-{
 
 .social-media{
     // border: 3px solid fuchsia;
-    margin: 2px 20px;
-    position: absolute;
-    right: 0;
+    // margin: 2px 20px;
+    // justify-content: flex-end;
 
 }
 
