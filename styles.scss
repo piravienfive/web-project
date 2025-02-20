@@ -200,14 +200,14 @@ i.fa-{
 }
 
 
-a:hover{
+nav a:hover{
     background-color: beige;
 }
-a:active{
+nav a:active{
     background-color: antiquewhite;
 }
 
-a.project-buttons{
+.project-buttons{
     display: inline-block;
     background-color: rosybrown;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -224,6 +224,14 @@ a.project-buttons{
 
     cursor: pointer;
     box-shadow: 2px 2px 5px grey;
+}
+
+a.project-buttons:hover{
+        background-color: beige;
+}
+
+a.project-buttons:active{
+    background-color: antiquewhite;
 }
 
 
