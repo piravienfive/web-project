@@ -186,7 +186,7 @@ a:active {
   background-color: antiquewhite;
 }
 
-a {
+a.project-buttons {
   display: inline-block;
   background-color: rosybrown;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
