@@ -19,11 +19,12 @@ nav {
 
 a {
   margin: 5px 10px;
-  border: 2px solid antiquewhite;
+  border: 5px solid antiquewhite;
   border-radius: 10px;
-  background-color: antiquewhite;
+  background-color: #E0BFB8;
   text-decoration: none;
   color: black;
+  padding: 6px;
 }
 
 .contact {
@@ -120,12 +121,10 @@ i.fa- {
 }
 
 .project-left {
-  border: 5px solid blue;
   display: flex;
   justify-content: center;
 }
 .project-left-captions {
-  border: 5px solid teal;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
@@ -146,7 +145,6 @@ i.fa- {
 
 .project-right {
   display: flex;
-  border: 5px solid pink;
   justify-content: center;
 }
 
@@ -178,4 +176,30 @@ i.fa- {
 
 .tech i {
   margin: 0px 15px 0px 15px;
+}
+
+a:hover {
+  background-color: beige;
+}
+
+a:active {
+  background-color: antiquewhite;
+}
+
+a {
+  display: inline-block;
+  background-color: rosybrown;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 90px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  border-radius: 10px;
+  border: solid 2px beige;
+  margin: 10px 15px 30px 0px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px grey;
 }
