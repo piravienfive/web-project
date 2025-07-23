@@ -19,17 +19,6 @@ Check out the live site here: [piravienfive.github.io/web-project](https://pirav
 -   CSS3
 -   [Font Awesome](https://fontawesome.com/) for icons
 
-## 📂 Project Structure
-
-```
-.
-├── index.html
-├── styles.css
-├── pic3.jpg
-├── pic4.jpg
-└── README.md
-```
-
 ## 🖥️ Getting Started
 
 To view or edit this project locally:
