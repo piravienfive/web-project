@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: antiquewhite;
 }
 div.name{
@@ -30,7 +30,7 @@ a {
     border: 4px solid gold;
     border-radius: 10px;
 }
-
+cod
 #first{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 40px 100px;
@@ -69,12 +69,11 @@ a {
 }
 
 .second-section{
-    // border: 5px solid;
     display: flex;
     margin: 40px 100px;
 }
 .about-me{
-    // border: 5px solid palevioletred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .about-me h1{
     margin: 90px 0px 0px 100px;
@@ -88,16 +87,7 @@ a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     // border: 5px solid green
 }
-.pic4{
-    // width: 500px;
-    // height: auto;
-    // justify-content: center;
-    // object-fit: cover;
-    // flex: 1 1 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .tech{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -159,13 +149,6 @@ i.fa-{
     justify-content: center;
 }
 
-
-.project-pic{
-        max-width: 25%;
-        height:auto;
-        flex: 1 1 auto;
-        margin: 20px 200px;
-    }
 
 .foot{
     border: 5px solid #383E42;
