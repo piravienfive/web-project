@@ -111,12 +111,14 @@ cod #first {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 50px;
+  padding-top: 100px;
 }
 .tech-head {
   font-size: 200%;
 }
 .tech-intro {
   font-size: larger;
+  margin-bottom: 40px;
 }
 
 i.fa- {
@@ -127,6 +129,8 @@ i.fa- {
 .project-heading {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
 }
 
 .project-left {
@@ -223,4 +227,8 @@ a.project-buttons:active {
 
 html {
   scroll-padding-top: 120px;
+}
+
+footer {
+  margin-top: 100px;
 }
