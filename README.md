@@ -36,7 +36,6 @@ No build steps or dependencies are required.
 -   [ ] Improve mobile responsiveness
 -   [ ] Make the navbar responsive
 -   [ ] Display more of my projects
--   [ ] Add more interactivity with JavaScript
 
 ## 📬 Contact
 
