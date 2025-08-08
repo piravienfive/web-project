@@ -233,6 +233,23 @@ footer {
   margin-top: 100px;
 }
 
+.social-media a {
+  text-decoration: none;
+  color: antiquewhite;
+  transition: color 0.3s ease;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.social-media a:hover {
+  color: #E0BFB8;
+}
+
+.social-media a:active {
+  color: beige;
+}
+
 /* Media Queries for Mobile Responsiveness */
 @media screen and (max-width: 480px) {
   /* Phone screens */
