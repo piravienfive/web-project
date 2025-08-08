@@ -232,3 +232,128 @@ html {
 footer {
   margin-top: 100px;
 }
+
+/* Media Queries for Mobile Responsiveness */
+@media screen and (max-width: 480px) {
+  /* Phone screens */
+  div.name {
+    font-size: 16px;
+    margin: 0px 10px;
+  }
+  
+  nav {
+    margin: 0px 10px;
+    justify-content: center;
+  }
+  
+  nav a {
+    font-size: 12px;
+    padding: 3px;
+    margin: 3px 5px;
+  }
+  
+  /* About Section */
+  .second-section {
+    margin: 20px;
+    flex-direction: column;
+  }
+  
+  .intro--name {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .occupation {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+  .about-me h1 {
+    margin: 40px 0px 0px 20px;
+  }
+  
+  .about-me p {
+    margin: 20px;
+    font-size: 14px;
+  }
+  
+  .pic4 img {
+    top: -40px;
+    max-width: 80%;
+  }
+  
+  /* Technical Skills */
+  .tech {
+    margin: 30px 20px;
+    padding-top: 60px;
+  }
+  
+  .tech-head {
+    font-size: 150%;
+  }
+  
+  .tech-intro {
+    margin-bottom: 30px;
+  }
+  
+  .tech i {
+    font-size: 3em !important;
+    margin: 0px 5px;
+  }
+  
+  /* Projects */
+  .project-heading {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .project {
+    flex-direction: column;
+  }
+  
+  .project-left, .project-right {
+    justify-content: center;
+  }
+  
+  .project-pic {
+    max-width: 80%;
+    margin: 10px 30px;
+    display: none;
+  }
+  
+  .project-left-captions {
+    margin: 10px 20px;
+    grid-template-columns: 1fr;
+  }
+  
+  .project-left-captions-1, .project-left-captions-2 {
+    padding: 0px 20px;
+    margin-bottom: 30px;
+  }
+  
+  .project-buttons {
+    width: 70px;
+    height: 35px;
+    font-size: 11px;
+    margin: 5px 10px 20px 0px;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 60px;
+  }
+  
+  .foot {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .mail-box {
+    margin: 10px 0px;
+  }
+  
+  .social-media i {
+    margin: 0px 10px;
+  }
+}
