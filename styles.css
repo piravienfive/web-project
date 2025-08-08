@@ -349,10 +349,11 @@ footer {
   }
   
   .project-buttons {
-    width: 70px;
-    height: 35px;
-    font-size: 11px;
-    margin: 5px 10px 20px 0px;
+    width: 60px;
+    height: 15px;
+    font-size: 10px;
+    margin: 5px 8px 20px 0px;
+    padding: 5px 8px;
   }
   
   /* Footer */
